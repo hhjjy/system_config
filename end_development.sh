@@ -1,6 +1,3 @@
-每當一階段開發結束時腳本 (end_development.sh)
-bash
-Copy code
 #!/bin/bash
 # 使用方式: ./end_development.sh [分支名]
 
