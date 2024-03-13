@@ -8,8 +8,4 @@ git add .
 git commit -m "$2"
 
 # 推送到遠程分支，根據是否是首次推送來使用不同的命令
-if git rev-parse --verify $1 &>/dev/null; then
-    git push origin $1
-else
-    git push -u origin $1
-fi
+git push origin $1
